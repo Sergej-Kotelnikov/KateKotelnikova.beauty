@@ -1229,4 +1229,10 @@ main {
   .footer__right{
     display: none;
   }
+  .contact__container {
+       padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+  }
 }
