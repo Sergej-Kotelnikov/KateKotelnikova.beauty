@@ -26,11 +26,11 @@ ul {
 }
 @font-face {
   font-family: "Grafita";
-  src: url(/fonts/GrafitaNormalDEMO.otf);
+  src: url(fonts/GrafitaNormalDEMO.otf);
 }
 @font-face {
   font-family: "Grafita Special";
-  src: url(/fonts/GrafitaSpecialDEMO.otf);
+  src: url(fonts/GrafitaSpecialDEMO.otf);
 }
 
 main {
@@ -250,7 +250,7 @@ main {
 /*---------------HEADER-----------------------*/
 
 .site {
-  background: url(/img/Slice1.jpg);
+  background: url(img/Slice1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
