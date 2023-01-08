@@ -70,7 +70,7 @@ DG.then(function () {
   });
 
   let myIcon = DG.icon({
-    iconUrl: `/img/marker.png`,
+    iconUrl: `img/marker.png`,
     iconSize: [26, 36],
   });
 
@@ -134,30 +134,28 @@ if (animItems.length > 0) {
   };
 })();
 
-let header__burger = document.querySelectorAll('.header__burger,.lis');
-let footer__nav = document.querySelector('.footer__nav');
-let back = document.querySelector('body');
+let header__burger = document.querySelectorAll(".header__burger,.lis");
+let footer__nav = document.querySelector(".footer__nav");
+let back = document.querySelector("body");
 
 header__burger.forEach(function (item) {
-   item.onclick = function () {
-      item.classList.toggle('active');
-      footer__nav.classList.toggle('active');
-      back.classList.toggle('lock');
-   }
+  item.onclick = function () {
+    item.classList.toggle("active");
+    footer__nav.classList.toggle("active");
+    back.classList.toggle("lock");
+  };
 });
 
-
-
-$(document).ready(function() {
-  $('.header__burger').click(function(event) {
-      $('.header__burger, .footer__nav').toggleClass('active');
-      $('body').toggleClass('lock')
+$(document).ready(function () {
+  $(".header__burger").click(function (event) {
+    $(".header__burger, .footer__nav").toggleClass("active");
+    $("body").toggleClass("lock");
   });
 });
 
-$(document).ready(function() {
-  $('.lis').click(function(event) {
-      $('.header__burger, .footer__nav').removeClass('active');
-      $('body').removeClass('lock')
+$(document).ready(function () {
+  $(".lis").click(function (event) {
+    $(".header__burger, .footer__nav").removeClass("active");
+    $("body").removeClass("lock");
   });
 });
