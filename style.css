@@ -749,6 +749,31 @@ main {
   align-items: center;
   margin-bottom: 20px;
 }
+
+.butons_form {
+  padding: 15px 50px;
+  margin-bottom: 20px;
+  background: #00ABC2;
+  border-radius: 20px;
+  font-family: 'Grafita';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  color: #FFEC2D;
+  transition: all 1s ease-in-out;
+}
+
+.butons_form:hover {
+  color: #00ABC2;
+  background-color: #FFEC2D;
+  transition: all 1s ease-in-out;
+}
+
+
+
+
+
 .title4 {
   font-family: "Grafita Special";
   font-style: normal;

@@ -76,7 +76,7 @@ DG.then(function () {
 
   DG.marker([43.243789, 76.92866], { icon: myIcon })
     .addTo(map)
-    .bindPopup("Kate Kotelnikova Nails");
+    .bindPopup("Beauty street Kate Kotelnikova Nails");
 });
 
 //Scroll
